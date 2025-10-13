@@ -15,10 +15,12 @@ int bit_calculator(int n)
     return count;
 }
 int main()
-{
+    {
     cout<<"So I am here to calculate set bits , So Less Go"<<endl;
-    int number;
-    cout<<"Enter your number:->";
-    cin>>number;
-    cout<<bit_calculator(number)<<endl;
+    int a,b;
+    cout<<"Enter 1st number:->";
+    cin>>a;
+    cout<<"Enter 2nd number:->";
+    cin>>b;
+    cout<<bit_calculator(a)+bit_calculator(b)<<endl;
 }
