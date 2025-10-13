@@ -1,7 +1,8 @@
 #include<iostream>
 using namespace std;
 
-int bit_calculator(int n){
+int bit_calculator(int n)
+{
     int count=0;
     while (n!=0)
     {           
@@ -13,7 +14,8 @@ int bit_calculator(int n){
     }
     return count;
 }
-int main(){
+int main()
+{
     cout<<"So I am here to calculate set bits , So Less Go"<<endl;
     int number;
     cout<<"Enter your number:->";
