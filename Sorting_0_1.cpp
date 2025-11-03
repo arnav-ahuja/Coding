@@ -29,7 +29,6 @@ void Sortone(int arr[],int n){
         }
     }
 }
-
 int main(){
     int arr[8]={1,0,1,0,1,1,0,0};
     Sortone(arr,8);
